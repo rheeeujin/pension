@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* Default */
+body {margin:20px 30px; font-family: "Malgun Gothic", "맑은 고딕","sans-serif"; min-width: 786px;}
+h1 {color:#3e6987;}
+h4 {font-size:13px;font-weight:normal;}
+h5 {font-size:12px;font-weight:normal;}
+th {border: 0px;}
+ul, li, p {margin: 0;padding: 0;}
+table {width:100%; font-size: 12px; border-spacing: 0; border-collapse: collapse;}
+li {list-style : none;}
+
+/************************** 영역 전체(공통) ***************************/
+.reserve_wrap {margin:8px 10px 30px;}
+.cont_section {padding-top:35px;}
+.count {padding-left:30; color:#ec5463;}
+
+
+/************************** 테이블 전체(공통) **************************/
+/*상단영역*/
+.reserve_header {margin: -25px 0 10px 10px; font-size: 27px; font-weight: 100px !important;}
+.reserve_infoTit {margin:0px 0 9px 17px; color:#4d83a9; font-size:14px; font-weight:bolder;}
+.reserve_subTit {color:#878787;}
+
+
+/*Input*/
+.ipt_xsmall {width: 10px;}
+.ipt_small {width: 60px; font-size:11px; padding: 2px 0;}
+.ipt_small2 {width: 83px; font-size:11px; padding: 2px 0;}
+.ipt_middle {width: 130px; font-size:11px; padding: 2px 0;}
+.ipt_large {width: 185px;}
+
+.inputBox_coupon {background-color: #f5f5f5; border:1px solid #949694; color:#666666; font-size: 11px; height: 16px; ime-mode:active;}
+.inputBox_login {background-color: #f5f5f5; border:1px solid #949694; color:#666666; ime-mode:active;}
+.inputBox_0 {background-color: transparent; border:1px solid #FBF9F3; color:#666666; font-size: 11px; height: 16px; ime-mode:active;}
+.inputBox_print {background-color: #D2F6E0; border:1px solid #6A9072; color:#02680C; font-size: 11px; height: 16px; ime-mode:active;}
+.inputBox_search {background-color: #FFFFFF;border:1px solid #949494; color:#3E414A; font-size: 11px; height: 18px; ime-mode:active;}
+.inputBox_textarea {background-color: #f5f5f5; border:1px solid #949694; color:#666666; font-size: 11px; height: 60px; ime-mode:active;}
+.inputBox_textarea2 {background-color: #f5f5f5; border:1px solid #949694; color:#666666; font-size: 11px; height: 100px; ime-mode:active;}
+.sel_allo {width:76px;}
+.allo_txt {padding-right:3px;}
+
+/*Buttom*/
+.btn_com {line-height: 33px; text-decoration: none;}
+.btn_com:hover {background: #3b5899;}
+.btn_nomem {display: inline-block; width:112px; height:33px; margin-right:70px; font-size: 13px; color:#ffffff;  border-radius:1px; background: #bbb;}
+.btn_mem{display: inline-block; width:112px; height:33px; font-size: 13px; color:#ffffff; border-radius:1px; background: #3b5899;}
+.btn_confirm {display: inline-block; width:112px; height:33px; font-size: 13px; color:#ffffff; text-align:center; border-radius:1px; background: #3b5899;}
+.btn_next {display: inline-block; width:112px; height:33px; font-size: 13px; color:#ffffff; border-radius:1px; background: #3b5899;}
+.btn_info {display: inline-block; width:112px; height:33px; font-size: 13px; color:#ffffff;  border-radius:1px; background: #bbb;}
+.btn_coupon {padding:4px 17px; font-size:12px; line-height: 13px; color:#ffffff; background: #ec5463; border:none; vertical-align:middle; }
+
+/*Text*/
+.impo_text {color:#ec5463;}
+.bold_red {color:#f36d76; font-weight:bolder;}
+.red_text {color:#ec5463;}
+
+/*border-style*/
+.line_bottom {border-bottom:1px solid #e1e1e1;}
+.line_left {border-left:1px solid #e1e1e1;}
+
+/*Table*/
+.reservation {width: 100%; border-spacing:0; border-collapse: collapse; border: 1px solid #bbb; border-width: 1px 0;}
+.reservation th {padding: 9px 19px 9px 53px; font-size: 12px; color:#878787; text-align: left; border: 1px solid #eee;border-width: 0 1px 1px 0; background-color: #f7f7f7;}
+.reservation td {padding:0 0 0 33px; font-size: 12px; font-weight: bold; border: 1px solid #eee;border-width: 0 0 1px 1px;}
+
+
+/*하단 버튼영역*/
+.agree_wrap {margin-top: 20px;text-align: center;}
+.agree_wrap input[type="checkbox"] {vertical-align: middle;}
+.agree_wrap label {padding-left:3px; font-size: 12px;color: #ec5463; font-weight: bold;}
+.btn_wrap {margin-top: 70px;text-align: center;}
+
+
+/************************** 날찌.객실선택 페이지***************************/
+
+/*캘린더*/
+.calenderTit {margin-bottom:6px; font-size:20px; line-height:18px; font-weight:bold; color:#3e6987; text-align:center;}
+.calenderTit img {padding:0 7px 1px 0; vertical-align: middle;}
+.calenderTit img.arro_left {padding:0 0 1px 7px;}
+
+.reserve_section {float:left;}
+.reserve_section td a {text-decoration: none;color:#000; }
+.reserve_section td a:hover {text-decoration: none;}
+.calender_section {overflow:hidden; width:100%;}
+.calender_section .calender_sec01 {float: left;padding-left: 10%;}
+.calender_section .calender_sec01 .red_text a {color:#ec5463;}
+.calender_section .calender_sec02 {float: right;padding-right: 10%;}
+.calender_section .calender_sec02 .red_text a {color:#ec5463;}
+
+
+.calender_table {width:299px; height:197px; margin:0 auto; border:1px solid #acacac; border-collapse: collapse; font-size:15px;}
+.calender_table th {padding:7px 1%; border:1px solid #c6c6c6;}
+.calender_table tr td .red_text {color:#ec5463;}
+.calender_table td {padding:7px 1% 2%; border:1px solid #c6c6c6; text-align:right;}
+.calender_table .date_on a {color:#ffffff;}
+.date_off {background: #f3f3f3;}
+.date_off_holiday {background: #f3f3f3; color:#ec979b;}
+.date_off_day {background:#ededed; color:#acacac;}
+.date_off_sunday {background: #f3f3f3; color:#acacac;}
+.date_on {color:#ffffff; background: #4d83a9}
+
+
+/*캘린더 설명*/
+.calDes_section {width: 100%;overflow: hidden; margin:11px 0;}
+.calender_des {float:right; font-size:10px; line-height: 10px;}
+.calender_des .desBox {display:inline-block; width:8px; height:8px; margin-right:2px; border:1px solid #e1e1e1; vertical-align: middle;}
+.calender_des .selDate_box { background-color:#4d83a9;}
+.calender_des .reserFinish_box {background:#f3f3f3;}
+.selDate_text {margin-right:12px;}
+
+
+/*날짜,객실선택 테이블*/
+.pension_reserveInfo_table .date_selBox {width:50px; line-height:20px; margin-left: 0;}
+.pension_reserveInfo_table .sale_ico {width:14px; vertical-align: middle; padding-right:3px;}
+
+
+/*성수기 기간 리스트*/
+.price_list {overflow: hidden; margin-bottom:30px; padding: 15px 5px 10px; border: 1px solid #bbb; border-width: 1px 0;font-size: 11px;}
+.price_list .ordinary_list {float: left;width: 50%;}
+.price_list .special_list {float: right;width: 50%;}
+.price_list .special_list .depth1 {margin-right:0;}
+.price_list .depth1 > li {margin-bottom: 10px;}
+.price_list .depth1 {margin-right:10%;}
+.price_list li strong {padding-left:10px; font-size:13px; font-weight:normal; background:url('../reserve_img/ico_square.PNG') left center no-repeat;}
+.price_list ul {list-style:none;}
+.price_list li {position: relative;text-align:right; font-size:12px;}
+.price_list strong {position: absolute;top:0;left:0; font-size:11px;}
+
+
+/* 날짜,객실 선택 테이블 */
+.pension_reserveInfo_table {width:100%; margin-bottom:34px; margin-bottom:34px;  font-size:13px; font-weight: bold; color:#000000; text-align: center; cellpadding: 5px; cellspacing: 0; border:1px; border-collapse:collapse;}
+.pension_reserveInfo_table thead th {height:47px; border-top: 1px solid #acacac; border-bottom: 1px solid #e1e1e1; background-color:#f7f7f7;}
+.pension_reserveInfo_table thead th span {text-align:center; }
+.pension_reserveInfo_table tbody tr {border-bottom:1px solid #e1e1e1;}
+.pension_reserveInfo_table tbody td {padding: 10px 0 10px 0;}
+.reserve_checkbox {width:38px; height:22px; margin-left:2px; vertical-align:middle;}
+.pension_reserveInfo_table tbody .reserve_pname {line-height: 24px;}
+.pension_reserveInfo_table tbody .reserve_icon {text-align: center; }
+.pension_reserveInfo_table tbody td .date_input {width: 35px; height: 22px;}
+.pension_reserveInfo_table tbody td .people_input {width: 35px; height: 22px; margin-left: 0;}
+.pension_reserveInfo_table tbody td .redline_text {color:#ec5463; text-decoration: line-through;}
+.pension_reserveInfo_table tbody td .red_text {color:#ec5463;}
+.pension_reserveInfo_table tbody td .peo_group {padding-left:10px;}
+
+
+/*부가서비스 테이블*/
+.pen_addService_table .amount_selBox {margin-left: 0;}
+.pen_addService_table {width:100%; margin-bottom:34px; margin-bottom:34px;  font-size:12px; font-weight: bold; color:#000000; text-align: center; cellpadding: 5px; cellspacing: 0; border:1px; border-collapse:collapse;}
+.pen_addService_table thead th {height:47px; border-top: 1px solid #acacac; border-bottom: 1px solid #e1e1e1; background-color:#f7f7f7;}
+.pen_addService_table thead th span {text-align:center; }
+.pen_addService_table tbody tr {border-bottom:1px solid #e1e1e1;}
+.pen_addService_table tbody td {padding: 10px 0 10px 0;}
+.pen_addService_table tbody td.
+.addservice_checkbox {vertical-align:middle;}
+.pen_addService_table tbody .addser_des {padding-left: 10px;text-align: left;}
+.pen_addService_table tbody .addser_mainDes
+
+
+/*객실 합계 및 총 결제 금액*/
+.pay_resultBox {overflow: hidden !important;text-align: right !important;}
+.pay_resultBox .roomResult {display:inline-block; float: left; width:87%; font-size:15px !important;}
+.pay_resultBox strong.roomResult {display:inline-block; float: left; width:87%; font-size:16px !important;}
+.pay_resultBox .room_priceTxt {display:inline-block; float: right; width: 10%; font-size: 15px;}
+.pay_resultBox .total_priceTxt {display:inline-block; float:right; width:10%; font-size: 16px; font-weight: bold;}
+.reserve_btn {margin:30px auto; text-align: center;}
+.reserve_btn img {width:110px;}
+
+/* 결제전 주의사항*/
+.pay_notice {margin-top: 70px;}
+.pay_notice .non_activex {text-align: right; margin-bottom:3px;}
+.pay_notice ul.payNotice_list {padding: 15px 15px 15px 150px; border: 1px solid #bbb; background: url('../reserve_img/exclamation-mark.PNG') 15px center no-repeat; background-size: 110px;}
+.pay_notice ul.payNotice_list li {padding: 2px 0 2px 10px; font-size: 12px;  background:url('../reserve_img/ico_list.PNG') left center no-repeat;}
+
+
+/*하단 버튼영역*/
+.btn_wrap .btn_info {margin-right:90px;}
+
+
+/* 예약창 Common */
+.reserve_top_pname {color: #4d83a9;}
+.reserve_top_pname img, .ico_pname {width:17px;height:auto;margin:-50px 5px 0 0;}
+.reserve_info {margin:35px 0 9px 0;color:#4d83a9;font-size:14px;font-weight:bolder;}
+.item {display:block;float:left;width:133px;padding:5px 0;border-right:1px solid #e1e1e1;}
+.value {float:left;width:600px;}
+.textbox {width:200px;}
+.line_bottom {border-bottom:1px solid #e1e1e1;}
+.line_left {border-left:1px solid #e1e1e1;}
+.line_dot {width:100%;height: 0;margin:10px 0;border:0px; border-bottom:1px dotted #e1e1e1;background:#fff;}
+.line_topno {border-top:0;}
+
+
+/*결제방식 선택*/
+.reserve_payment {display:block;width:100%;margin:5px 0;padding:10px 0;text-indent: 35px;background-color:#f7f7f7;border-top:1px solid #acacac;border-bottom:1px solid #acacac;text-align:left;}
+.reserve_payment input[type=radio] {margin:0 5px 0 15px;}
+.reserve_payment .payment_banner {width:100px;height:auto;}
+.reserve_payment_info {width:100%;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
+.reserve_payment_info tbody tr th {width:180px;padding:10px 0;font-size:12px;text-align:left;text-indent:50px;border-right:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
+.reserve_payment_info tbody tr td {padding:10px;font-size:12px;border-bottom:1px solid #e1e1e1;}
+.reserve_payment_info tbody tr td span {color:#f36d76;font-weight:bolder;}
+.reserve_payment_noti {width:100%;border-top:1px solid #acacac;border-bottom:1px solid #acacac; border-collapse: collapse;}
+.reserve_payment_noti.line_topno {}
+.reserve_payment_noti tbody tr th {width:180px;padding:10px 0;font-size:12px;text-align:left;text-indent:50px;border-right:1px solid #e1e1e1;}
+.reserve_payment_noti tbody tr td {padding:5px;font-size:12px;}
+.reserve_payment_noti tbody tr td span {padding-left:13px;}
+.reserve_payment_noti tbody tr td .count {padding-left:30; color:#ec5463;}
+.reserve_payment_noti_accounttr {margin: 5px 0 0 50px;color:#999;font-size:11px;}
+.reserve_payment_noti_card {background-color:#f7f7f7;}
+.reserve_payment_noti_box {width:90%;padding:10px 5% 30px;color:#777;font-size:11px;border-bottom:1px solid #acacac;}
+.reserve_payment_noti_box h4 {color:#777;}
+.reserve_payment_noti_box h4 img {width:auto;height:11px;margin:-1px 5px 0 0;}
+.reserve_payment_noti_box ul li {color:#777;font-size:11px;}
+.reserve_payment_noti_box .pgmodule {width:auto; height:18px; vertical-align: middle;}
+.reserve_agree {width:100%;margin:30px auto;text-align:center;}
+.reserve_agree img {width:110px;height:auto;}
+
+
+
+/************************** 예약 및 결제정보 입력 페이지 ***************************/
+/* 펜션 예약정보 */
+.pInfo_table {width:100%; margin-bottom:10px; font-size:12px; font-weight: bold; color:#000000; text-align: center; border:1px; border-collapse:collapse;}
+.pInfo_table thead th {color:#878787; border-top: 1px solid #acacac; border-bottom: 1px solid #e1e1e1; background-color:#f7f7f7;}
+.pInfo_table tbody tr {border-bottom:1px solid #acacac;}
+.pInfo_table tbody td {padding: 10px 0 10px 0;}
+.reservation_pension th {padding:10px 0;}
+
+/*펜션 예약 정보 : 요금상세*/
+.detail_price_table {width:100%; font-size:12px; font-weight: bold; color:#000000; text-align: center; border:1px; border-collapse:collapse;}
+.detail_price_table thead tr th {color:#878787; border-top: 1px solid #acacac; border-bottom: 1px solid #e1e1e1; background-color:#f7f7f7;}
+.detail_price_table tbody tr {border-bottom:1px solid #acacac;}
+.detail_price_table tbody td {padding: 10px 0 10px 0;}
+.detail_price_table tbody tr td {position:relative;width:25%;padding:40px 0;font-size:24px;}
+.detail_price_table tbody tr td .ico_plus {position:absolute;top:35px;left:-21px;width:40px;height:auto;}
+.detail_price_table tbody tr td .ico_minus {position:absolute;top:35px;left:-21px;width:40px;height:auto;}
+.detail_price_table tbody tr td .ico_equal {position:absolute;top:35px;left:-21px;width:40px;height:auto;}
+
+
+/* 예약자 정보 */
+.custoInfo_table .ipt_mgl6 {margin-left: 6px;}
+.custoInfo_table {border-spacing: 0px; border-collapse: collapse;}
+.custoInfo_table th {}
+.custoInfo_table td {margin-left: 33px;}
+.custoInfo_table .input_sname { border-right: 1px solid #e1e1e1;}
+.custoInfo_table .ipt_sname {}
+.custoInfo_table .birth_th {padding-left: 36px;}
+.custoInfo_table textarea {width:85%; height:75px; margin:10px 0 10px 33px; padding:10px; border:1px solid #e1e1e1;}
+.custoInfo_table .ico_point {background:url('../img/icon/ico_point.gif') 42px center no-repeat;}
+.custoInfo_table .aPlan_text {margin-left:23px; color:#000; vertical-align: middle;}
+.txt_area {width: 80%; height: 100px;}
+
+
+/*할인 선택*/
+input[type="text"] {height:18px; margin:0 5px 0 33px; padding:3px; font-size: 13px; border:1px solid #e1e1e1;}
+select {margin-left: 33px;}
+.reservationE {width: 100%; color:#878787; border-spacing:0; border-collapse: collapse; border: 1px solid #bbb; border-width: 1px 0;}
+.reservationE th {padding: 9px 19px 9px 53px; font-size: 12px; text-align: left; border: 1px solid #eee;border-width: 0 1px 1px 0;}
+.reservationE td {font-size:12px; border: 1px solid #eee;border-width: 0 0 1px 1px;}
+
+
+/* 할인 */
+.reserve_discount tbody tr th {width:180px;padding:5px 0;font-size:12px;text-indent:50px;border-right:1px solid #e1e1e1;}
+.reserve_discount tbody tr td {padding:10px;font-size:12px;}
+.reserve_discount tbody tr td img {width:86px;height:auto;}
+.reserve_discount_noti {margin: 5px 0 0 50px;color:#999;font-size:11px;}
+
+.mileage_td {padding:10px 10px 10px 30px; font-size:12px;}
+.mileage_td input {vertical-align:middle;}
+.mileage_des {padding:0 0 0 25px;}
+.sort {margin:0 -10px 0 10px;}
+.coupon_tr {padding:10px 0 10px 0;}
+.sale_table {margin:0 0 10px 33px;}
+.sale_table tr {border:none;}
+.now_mile {color:#3b5899;}
+.discount_table {border:0;}
+
+
+/*결제방식(선택)*/
+.pay_method {margin-bottom: 20px; padding: 10px; border: 1px solid #bbb; border-width: 1px 0; background: #f7f7f7;}
+.pay_method ul {overflow: hidden;width: 650px;margin: 0 auto;}
+.pay_method li {float: left; margin-right: 30px;}
+.pay_method li * {vertical-align: middle;}
+.pay_method .last {margin: 0;}
+.pay_method label {font-size: 12px;}
+.pay_method .ipt_radio img {margin-top:5px;}
+.dis_hidden {display: none;}
+.ipt_radio { margin-right:5px;}
+
+/*결제방식 (결과)*/
+.pay_method_result {width: 100%; margin-bottom:20px; border-spacing:0; border-collapse: collapse; border: 1px solid #bbb; border-width: 1px 0;}
+.pay_method_result th {font-size: 12px; padding: 10px 0;background: #f7f7f7; border-bottom:1px solid #e1e1e1;}
+.pay_method_result td {font-size: 12px; padding: 10px 0;text-align: center;color: red; background: #fff;}
+
+
+/*이용약관*/
+.seciton_license .license_list ul {overflow: hidden; padding:0px 0px;}
+.seciton_license .license_list ul li {float:left; width:25%; padding:5px 0; border:1px solid #e1e1e1; border-width: 1px 1px 1px 0; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; text-align: center;}
+.seciton_license .license_list ul li.last {padding-right:0; border-right:0px; }
+.seciton_license .license_list ul li label {font-size: 12px;}
+.seciton_license .license_list input {vertical-align: middle;}
+.tab_on {background-color: #f7f7f7; border-bottom:1px solid #f7f7f7 !important;}
+
+
+/*이용약관 내용*/
+.license_decs {padding: 20px 40px;background-color: #f7f7f7; border-bottom: 1px solid #e1e1e1; font-size: 11px;}
+
+/*로딩창*/
+#frmBank {width:574px;}
+
+/*이용약관 - 취소 수수료 및 이용약관 테이블*/
+.cancel_table {width:100%; margin-bottom: 20px; border-collapse: collapse; border:1px solid #acacac; border-width:1px 0;}
+.cancel_table tr {}
+.cancel_table th {padding:7px 0; text-align: center; font-size:11px; color:#000; border-right:1px solid #e1e1e1;}
+.cancel_table th.first {border-left:1px solid #e1e1e1;}
+.cancel_table td {padding:7px 0; text-align: center; font-size:11px; color:#000;border-right:1px solid #e1e1e1; background:#fff;}
+.cancel_table td.first {border-left:1px solid #e1e1e1;}
+
+
+
+/************************** 예약완료 페이지 ***************************/
+/*테이블(공통)*/
+.reservation_result th {padding:10px 0;}
+.reserve_agree {text-align:center;}
+
+
+/* 펜션 예약정보*/
+.pInfo2_table {width:100%; margin-bottom:10px; font-size:12px; font-weight: bold; color:#000000; text-align: center; border:1px; border-collapse:collapse;}
+.pInfo2_table thead th {color:#878787; border-top: 1px solid #acacac; border-bottom: 1px solid #e1e1e1; background-color:#f7f7f7;}
+.pInfo2_table tbody tr {border-bottom:1px solid #acacac;}
+.pInfo2_table tbody td {padding: 10px 0 10px 0;}
+
+
+/*펜션 예약 정보 (요금상세)*/
+.detailPrice_table {position: relative; width:100%; margin-bottom:30px;  font-size:12px; font-weight: bold; color:#000000; text-align: center; border:1px; border-collapse:collapse;}
+.detailPrice_table th {padding:10px 0 10px 5px;color:#878787;border-bottom: 0;text-align: left;border-top: 1px solid #acacac; background-color:#f7f7f7;}
+.detailPrice_table tbody td {position:relative;width:25%;font-size:24px; border-right:1px solid #000;}
+.detailPrice_table tbody td .ico {position:absolute;left:-17px;width:33px;height:auto;}
+.detailPrice_table .tit_bg {padding: 5px 0 40px 0;border-top: 0;border-bottom: 1px solid #bbb;background: #f7f7f7;}
+
+
+.dp_table2 {border-collapse: separate !important;}
+.dp_table2 tbody td {border-right: none;}
+.dp_table2 .pay_result td {border-width: 0 1px 1px; border-bottom-color:#acacac;}
+.dp_table2 .pay_result td.first {border-left: 0;}
+
+
+/*요금상세 테이블*/
+.pay_result td {padding-bottom:15px;border: 1px solid #eee;border-width: 0 1px 1px 0; border-bottom: 1px solid #acacac; vertical-align: top;}
+.pay_result .last {border-right: 0;}
+.pay_list_wrap {display: block;overflow: hidden;font-size: 12px;color: #777;}
+.pay_list_wrap strong {float: left;}
+.pay_list_wrap span {float: right; color:#000;}
+
+
+/*예약완료 테이블*/
+.rec_view td img {width:92px;}

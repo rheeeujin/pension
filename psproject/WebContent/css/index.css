@@ -1,0 +1,58 @@
+col-md-6 div p {float: left;}
+		@media (min-width: 360px) {
+			.logo{
+				width:85px;
+				margin-top:7px; }
+			.phone1 {
+		      	max-width: 100%;
+		      	background-position-x: 24%; }
+			.phone2 {
+		      	max-width: 100%;
+		      	background-position-x: 29.4%; } }
+    	@media (min-width: 576px) {
+	    	.logo {
+				width: 110px;
+				margin-top: 2px; }
+		    .event {
+		      	max-width: 100%;
+		      	background-position-x: 30%; } }
+	  	@media (min-width: 768px) {
+	  		.logo {
+				width: 110px;
+				margin-top: 2px; }
+		    .event {
+		      max-width: 100%;
+		      background-position-x: 35%; } }
+	  	@media (min-width: 992px) {
+	  		.logo {
+				width: 110px;
+				margin-top: 2px; }
+		    .event {
+		      max-width: 100%; } }
+	  	@media (min-width: 1200px) {
+	  		.logo {
+				width: 110px;
+				margin-top: 2px; }
+		    .event {
+		      max-width: 100%; } }
+		.subcontainer {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		@media (min-width: 576px) {
+			.subcontainer {
+		    	max-width: 100%; } }
+		@media (min-width: 768px) {
+		    .subcontainer {
+		    	max-width: 100%; } }
+		@media (min-width: 992px) {
+		    .subcontainer {
+				max-width: 100%; } }
+		@media (min-width: 1200px) {
+		    .subcontainer {
+				max-width: 100%; } }
+		.rollpic{
+			padding: 0;
+			margin: 0;
+		}

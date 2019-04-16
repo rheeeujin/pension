@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.wrap {
+  width: 1200px;;   
+	 margin: 0 auto; 
+      background:  url(../images/photography.png) repeat;
+}
+#formsearc h1{ margin-top: 50px;}
+
+#hr{ clear: both;}
+
+.Search {
+	border: 10px solid #ebedef;
+	height: 37px;
+	padding: 0 50px 0 20px;
+	margin: 5px;
+	font-size: 15px;
+	color: aqua;
+	
+	 
+}
+
+.btnSearch {
+	border: 10px solid #ebedef;
+	height: 60px;
+	padding: 0 30px 0 10px;
+	font-size: 15px;
+	text-align: center;
+	 float: right;
+}
+figure.effect-marley figcaption {
+	text-align: right;
+}
+
+figure.effect-marley h5,
+figure.effect-marley p {
+	font-weight: 700;
+	position: absolute;
+	right: 100px;
+	left: 30px;
+	padding: 10px 0;
+	color: white;
+}
+
+
+figure.effect-marley p {
+	bottom: 30px;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+figure.effect-marley h5 {
+
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+	
+}
+
+figure.effect-marley:hover h5 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-marley h5::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #fff;
+	content: '';
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-marley h5::after,
+figure.effect-marley p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-marley:hover h5::after,
+figure.effect-marley:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	
+}
+.grid {
+	
+	float:left;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+	    
+	
+}
+
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 280px;
+	max-width: 280px;
+	max-height: 200px;
+	
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+	width: 280px;
+	height: 200px;
+	
+}
+
+.grid figure figcaption {
+	padding: 10px;;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h5 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+
+}
+
+.grid figure h5 span {
+	font-weight: 800;
+}
+
+.grid figure h5,
+.grid figure p {
+	
+	margin: 0;
+	width: 250px;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	    width: 250px;
+	
+}
+#formsearch1
+{margin-top: 20px;}
+
+
+.cont_tab li a:hover{color:black;font-weight:bold; border-bottom: 1px solid;}
+.roomlist li a:hover{color:black;font-weight:bold; border-bottom: 1px solid;}
+
+.roomlist li{float: left; width: 160px; list-style: none; text-align: center; padding: 0;  }
+.roomlist li a{color: black; }
+.roomlist ul{margin: 0}
+.roomlist{height: 70px;background: #583b3b14;}
+.roominimg2 li img{ width:500px;     margin-left: 50px;}
+.roominimg2{list-style: none;  margin-top: 100px; padding: 0}
+.roominimg2 li{width: 500px;}
+.roomin{height:360px;}
+ 
+.roominimg  li{ list-style: none; float: left; width: 120px!important; padding: 3px; }
+.bx-wrapper{ width: 490px;height : 130px; box-shadow: 0 0 0px!important;}
+.roominimg-wrapper{clear: both; height: 180px;     margin-left: 50px;}
+.roominimg  li img{height: 100px; width:120px; margin-top: 5px;}
+
+.cont_tab{display: -webkit-box; list-style: none;  margin-top: 100px;border-top: double; border-bottom:double; margin-bottom: 0; padding-left: 10%;}
+.cont_tab li{ margin-right: 150px;text-align: center;}
+.cont_tab li{rgba(0, 0, 0, 0.5);}
+.con_tab_area{clear: both;}
+.cont_tab li a{color: black;}
+
+/* .bx-wrapper{width: 300px;float: right;} */
+.pensioninfo img{     margin-left: 50px;}
+.pensioninfo p{float: left;}
+.pensioninfo li{list-style: none; padding: 5px; margin-left: 530px;}
+.psinfo li h3{text-align: center; padding: 30px 50px 0px;}
+.info2{float: right; margin-top: 20px; margin-right: 30px;}
+
+.mt-5 {clear: both;}
+.nosearch {max-width: none;}
+.tbox{margin-top: 10%; margin-bottom: 10%;}
+
+.imgbox{float: left; padding: 5px;}
